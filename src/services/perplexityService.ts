@@ -30,7 +30,7 @@ export const analyzeBookmarks = async (bookmarks: Bookmark[]): Promise<{
         'Authorization': `Bearer ${PERPLEXITY_API_KEY}`
       },
       body: JSON.stringify({
-        model: 'sonar-medium-online',
+        model: 'sonar-pro',
         messages: [
           {
             role: 'system',
