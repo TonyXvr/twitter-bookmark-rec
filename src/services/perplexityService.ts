@@ -35,7 +35,7 @@ export const analyzeBookmarks = async (bookmarks: Bookmark[]): Promise<{
           {
             role: 'system',
             content: `You are an AI tool recommendation expert with deep knowledge of the latest AI tools, platforms, and services across various domains. Your task is to analyze the user's bookmarks in depth and provide highly personalized AI tool recommendations.
-
+            MAKE SURE you only make recommendations based on the content in the JSON file uploaded.
             First, analyze the bookmarks to understand:
             1. The user's interests, professional domains, and technical sophistication
             2. The types of content they engage with (technical, creative, business, etc.)
